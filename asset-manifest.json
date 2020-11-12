@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/eigarcom/static/css/main.971062f6.chunk.css",
-    "main.js": "/eigarcom/static/js/main.0094bd3d.chunk.js",
-    "main.js.map": "/eigarcom/static/js/main.0094bd3d.chunk.js.map",
+    "main.js": "/eigarcom/static/js/main.a5711489.chunk.js",
+    "main.js.map": "/eigarcom/static/js/main.a5711489.chunk.js.map",
     "runtime-main.js": "/eigarcom/static/js/runtime-main.49cd89ef.js",
     "runtime-main.js.map": "/eigarcom/static/js/runtime-main.49cd89ef.js.map",
-    "static/js/2.3e044058.chunk.js": "/eigarcom/static/js/2.3e044058.chunk.js",
-    "static/js/2.3e044058.chunk.js.map": "/eigarcom/static/js/2.3e044058.chunk.js.map",
+    "static/js/2.18c4b838.chunk.js": "/eigarcom/static/js/2.18c4b838.chunk.js",
+    "static/js/2.18c4b838.chunk.js.map": "/eigarcom/static/js/2.18c4b838.chunk.js.map",
     "static/js/3.a684f93b.chunk.js": "/eigarcom/static/js/3.a684f93b.chunk.js",
     "static/js/3.a684f93b.chunk.js.map": "/eigarcom/static/js/3.a684f93b.chunk.js.map",
     "index.html": "/eigarcom/index.html",
     "static/css/main.971062f6.chunk.css.map": "/eigarcom/static/css/main.971062f6.chunk.css.map",
-    "static/js/2.3e044058.chunk.js.LICENSE.txt": "/eigarcom/static/js/2.3e044058.chunk.js.LICENSE.txt",
+    "static/js/2.18c4b838.chunk.js.LICENSE.txt": "/eigarcom/static/js/2.18c4b838.chunk.js.LICENSE.txt",
     "static/media/App.css": "/eigarcom/static/media/Intro-Regular.d748361c.ttf",
     "static/media/font-awesome.min.css": "/eigarcom/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/logo.2b2ba6f4.svg": "/eigarcom/static/media/logo.2b2ba6f4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.49cd89ef.js",
-    "static/js/2.3e044058.chunk.js",
+    "static/js/2.18c4b838.chunk.js",
     "static/css/main.971062f6.chunk.css",
-    "static/js/main.0094bd3d.chunk.js"
+    "static/js/main.a5711489.chunk.js"
   ]
 }
