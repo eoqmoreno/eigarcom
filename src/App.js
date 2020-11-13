@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import './css/font-awesome-4.7.0/css/font-awesome.min.css';
+import { BrowserRouter, Route} from 'react-router-dom';
+import Home from './home/Home';
+import Navbar from './navbar/Navbar';
+import Mesa from './mesa/Mesa';
+import Abertas from './home/Abertas';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+
+      <Navbar></Navbar>
+
+      <Route path="/" exact>
+        <Home>
+        </Home>
+      </Route>
+
+      <Route path="/pagar">
+        <Abertas></Abertas>
+      </Route>
+
+      <Route path="/mesa:id" component={Mesa}>
+      </Route>
+    </BrowserRouter>
   );
 }
 
